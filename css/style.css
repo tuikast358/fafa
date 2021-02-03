@@ -1,0 +1,161 @@
+﻿@charset "utf-8";
+
+body {
+ background-color: #ffe;
+ margin; 0;
+}
+
+
+/*コンテナの幅は940px固定、秋は左右平等*/
+.container {
+	max-width: 940px;
+	margin: 0 auto;
+}
+
+/*見出し*/
+h1, h2, h3, h4, h5, h6 {
+ font-family: '游ゴシック', 'メイリオ', sans-serif;
+ font-weight: normal;;
+ color: #222;
+ line-height: 1.1;
+}
+
+h1{
+ font-size: 34px;
+ text-shadow: 1px 1px 2px #666b70;
+ letter-spacing: 3px;
+ margin-top: 40px;
+ margin-bottom: 20px;
+}
+
+h2 {
+ font-size: 26px;
+ text-shadow: 1px 1px 2px #666b70;
+ letter-spacing: 3px;
+ margin-top: 30px;
+ margin-bottom: 20px;
+}
+
+h3 {
+ font-size: 19px;
+ text-shadow: 1px 1px 2px #666b70;
+ margin-top: 20px;
+ margin-bottom: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: #ff6347;
+}
+
+a:visited {
+  color: #fea460;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+/* ページタイトル部分 */
+.lead {
+  font-size: 20px;
+  color: red;
+  line-height: 1;
+  margin: 0 0 20px;
+}
+
+/* 本文 */
+p {
+  line-height: 1.7;
+  margin 0;
+}
+
+/* 表 */
+table {
+ border: 2px solid #ccc;
+ border-collapse: collapse;
+}
+
+th, td {
+ border: 2px solid #ccc;
+ padding: 10px;
+}
+
+th {
+ background-color: #ffd700;
+}
+
+.admission {
+	width: 100%
+}
+
+.price {
+  text-align: center;
+}
+
+
+hr.line{
+	border: none;
+	border-top: 6px dotted #ccc;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*グローバルメニュー*/
+.global-nav {
+	font-size: 18px;
+	width: 940px;
+	background-color: #000
+}
+
+.nav-list {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+.nav-item {
+	display: inline-block;
+	padding: 20px 15px;
+	color: #fff;
+}
+
+
+.nav-item a:link {
+	color: #fff;
+	text-decoration: none;
+}
+
+.nav-item a:visited {
+	color: #fff;
+}
+
+.nav-item:hover {
+	background-color: #d2691e;
+}
+
+
+/* ロゴ画像 */
+.logo-image {
+	vertical-align: bottom;
+}
+/* フッター */
+footer {
+ text-align: center;
+ margin: 40px 0 20px;
+}
