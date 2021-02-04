@@ -1,0 +1,40 @@
+﻿@charset "utf-8";
+
+/* マルチカラム関連 */
+.wrapper {
+	width: 100%;
+	overflow: auto;
+}
+
+.main-area {
+	float: left;
+	width: 50%;
+	padding: 0 2.5%;
+}
+
+.sub-area {
+	float: right;
+	width: 40%;
+	padding: 0 2.5%;
+}
+
+/*サイドバー内のスタイル*/
+.sidebr {
+	margin: 40px 0;
+}
+
+.sidebar-title {
+ margin: 0 0 30px;
+}
+
+.side-list-ol {
+	margin: 5px 0 10px;
+}
+
+.side-list-title {
+	font-size: 18px;
+}
+
+.sidebar-list {
+	list-style-type: square;
+}
